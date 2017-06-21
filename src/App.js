@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
+import Question1 from './Questions/Question1';
 
 class App extends Component {
   render() {
@@ -7,7 +8,7 @@ class App extends Component {
       <div>
           <Header />
         <div>
-          { this.props.children }
+          <Question1 />
         </div>
       </div>
     );
